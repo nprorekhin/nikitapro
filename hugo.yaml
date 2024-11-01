@@ -1,0 +1,35 @@
+baseURL: https://nikitapro.com/
+languageCode: en-us
+title: NikitaPro.com
+theme: hextra
+menu:
+  main:
+    - name: Blog
+      pageRef: /blog
+      weight: 1
+    - name: Search
+      weight: 3
+      params:
+        type: search
+    - name: GitHub
+      weight: 4
+      url: https://github.com/
+      params:
+        icon: github
+    - name: LinkedIn
+      weight: 5
+      url: https://www.linkedin.com/in/prorekhin
+      params:
+        icon: linkedin
+params:
+  navbar:
+    displayTitle: true   
+    logo:
+      path: images/logo.png
+      width: 70
+  theme:
+    # light | dark | system
+    default: light
+    displayToggle: true
+  page:
+    width: wide

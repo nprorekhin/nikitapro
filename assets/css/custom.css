@@ -1,0 +1,9 @@
+:root {
+    --primary-hue: 270deg;
+    --primary-saturation: 90%;
+    --primary-lightness: 50%;
+  }
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+}
