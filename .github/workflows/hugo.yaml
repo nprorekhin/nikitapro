@@ -55,7 +55,7 @@ jobs:
         run: |
           hugo \
             --gc \
-            --minify /"
+            --minify
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
