@@ -1,6 +1,10 @@
+# MacOS
 .DS_Store
 
+# Hugo
 node_modules/
 public/
 resources/
+/assets/jsconfig.json
+hugo_stats.json
 .hugo_build.lock
