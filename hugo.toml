@@ -19,14 +19,14 @@ enableEmoji = true
     name = 'Home'
     pageRef = '/'
     weight = 5
-  [[menus.main]]
-    name = 'Posts'
-    pageRef = '/posts'
-    weight = 10
   #[[menus.main]]
-  #  name = 'Notes'
-  #  pageRef = '/notes'
-  #  weight = 20
+  #  name = 'Posts'
+  #  pageRef = '/posts'
+  #  weight = 10
+  [[menus.main]]
+    name = 'Notes'
+    pageRef = '/notes'
+    weight = 20
   #[[menus.main]]
   #  name = 'Graph'
   #  pageRef = '/graph'
@@ -54,7 +54,7 @@ enableEmoji = true
 
   # Show content graph for single notes and posts.
   # Default: true
-  showGraph = true
+  showGraph = false
 
   # Author details for the JSON-LD structured data.
   [params.author]
@@ -73,7 +73,7 @@ enableEmoji = true
 
     # Display recent notes on the homepage.
     # Default: true
-    showRecentNotes = false
+    showRecentNotes = true
 
     # Set how many recent notes to show.
     # Default: 5
